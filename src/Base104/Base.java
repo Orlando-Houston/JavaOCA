@@ -1,0 +1,7 @@
+package Base104;
+
+public class Base {
+    public void  test(){
+        System.out.println ("Base");
+    }
+}
