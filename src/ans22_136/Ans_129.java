@@ -1,6 +1,6 @@
 package ans22_136;
 
-public class Ans136 {
+public class Ans_129 {
     public static void main(String[] args) {
 
         try {
