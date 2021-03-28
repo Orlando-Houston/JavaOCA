@@ -1,4 +1,4 @@
-package ans22_136;
+package _22ans_136;
 
 public class Ans22 {
     public static void main(String[] args) {

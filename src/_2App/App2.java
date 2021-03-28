@@ -1,4 +1,4 @@
-package App2_;
+package _2App;
 
 public class App2 {
     public static void main(String[] args) {

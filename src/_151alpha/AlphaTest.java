@@ -1,4 +1,4 @@
-package alpha151;
+package _151alpha;
 
 public class AlphaTest {
     public static void main(String[] args) {
