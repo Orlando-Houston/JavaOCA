@@ -31,3 +31,12 @@ class Game implements _182Playable{
 
 
 }
+/*
+Which statement is true about the implementation of Object-Oriented Programming concepts in the given
+code?
+A. Polymorphism, abstraction, and encapsulation are implemented.
+B. Only polymorphism and inheritance are implemented.
+C. Polymorphism, inheritance, and abstraction are implemented.
+D. Only inheritance and encapsulation are implemented.
+Answer: C
+ */
