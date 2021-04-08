@@ -5,8 +5,10 @@
 
 
 
-
+/*
 class E1 extends  Exception{}
+
+
 public class _190_App {
     public void m1()   throws E1 {
         System.out.println ("m1.Accessed.");
@@ -28,3 +30,4 @@ public class _190_App {
 
     }
 }
+*/
