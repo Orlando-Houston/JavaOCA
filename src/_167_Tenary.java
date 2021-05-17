@@ -4,6 +4,8 @@ public class _167_Tenary {
         int a=x++;
         int b=++x;
         int c=x++;
-        int d= (a<b) ? (a<c)? a:(b<c)? b:c:x;
+        int d=      (a<b) ?    (a<c)     ? a      :    (b<c)   ? b:c:x;
+        System.out.println (d);
+
     }
 }

@@ -3,6 +3,7 @@ public class Array53 {
         int num[][] =new int[1][3];
         for (int i=0;i< num.length;i++){
             for (int j=0; j< num[i].length;j++){
+         //   for (int j=0; j< num.length;j++){
                 num[i][j]=10;
                 System.out.println (num[i][j]);
             }

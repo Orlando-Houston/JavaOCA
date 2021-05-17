@@ -9,7 +9,7 @@ public class ArrayList29 {
         points.add (4);
         points.add (null);
         points.remove (1);
-        points.remove (null);
+       points.remove (null);
         System.out.println (points);
     }
 }

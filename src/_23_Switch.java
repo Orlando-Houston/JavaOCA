@@ -15,6 +15,7 @@ public class _23_Switch{
                     break;
 
             }
+
             System.out.println (colorCode);//y
             //  System.out.println (color);comp error
         }

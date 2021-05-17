@@ -12,12 +12,12 @@ public class App124 {
             System.out.println ("Error");
 
         }
-        System.out.println ("myStr: " +myStr +"myNum:"+myNum);
+        System.out.println ("myStr: " +myStr +"myNum:"+myNum);  //7007   ,9009
     }
 
     public static void main(String[] args) {
         App124  obj=new App124 ();
         obj.doStuff ("9009");
-        //    System.out.println (obj.myStr);
+            System.out.println (obj.myStr);
     }
 }

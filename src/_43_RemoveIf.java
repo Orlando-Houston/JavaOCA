@@ -4,10 +4,11 @@ import java.util.List;
 
 public class _43_RemoveIf {
     public static void main(String[] args) {
-        String[] arr= {"Hi","How","How","Are","You"};
+        String[] arr= {"Hi","How","Are","You"};
 
         List<String> arrList=new ArrayList<> (Arrays.asList (arr));
-        //  if  (arrList.removeIf (String s) -> {return s.length() <=2}){
-        //     System.out.println (s+ "removed");
-    }
-}
+         if  (arrList.removeIf ((String s)-> {return  s.length ()<=2;}))
+            //System.out.println (s + "removed");
+        System.out.println (arrList + "removed");
+    }}
+

@@ -8,7 +8,7 @@ class Earth76 extends Planet76{
     protected   void rotate(){//private
 
     }
-    protected void revolve(){  //private
+    protected void revolve(){      //private
 
     }
 }

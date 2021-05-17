@@ -5,9 +5,9 @@ class Student{
 
 public class _162_TestStudent {
     public static void main(String[] args) {
-        Student s1= new Student ();
-        Student s2= new Student ();
-        Student s3= new Student ();
+        Student_1 s1= new Student_1 ();
+        Student_1 s2= new Student_1 ();
+        Student_1 s3= new Student_1 ();
         s1=s3;
         s3=s2;
         s2=null;

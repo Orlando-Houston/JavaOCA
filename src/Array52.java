@@ -9,15 +9,20 @@ public class Array52 {
             for (int b=0; b<chs.length;b++){
                 chs[a][b] =" "+i;
                 i++;
+                System.out.println (chs);
+                System.out.println (chs[a][b]);
 
             }
         }
+        /*
         for (String[] ca:chs){
             for (String c:ca){
                 System.out.println (c+" ");
             }
             System.out.println ();
         }
+
+         */
     }
 }
 

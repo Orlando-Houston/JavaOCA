@@ -7,13 +7,13 @@ public class C extends A {
 
     public static void main(String[] args) {
         A b1=new A ();
-        A b2= new A ();
+        A b2= new C ();
 
-        b1=(A) b2;
+        b1=(A) b2;  //line n1
 
-    //    A b3=(B )b2;
+       //A b3=(B )b2; // line n2
 
-        b1.test ();
+        b1.test ();   //C
       //  b3.test ();//class  cast exception
 
     }

@@ -7,9 +7,10 @@ class Tool63  implements Exportable63 {
     }
 
 }
-class ReportTool63 extends Tool63 implements Exportable63{
+class ReportTool63 extends Tool63 {
 
-    public void export(){
+   public    void export(){   //line2
+     //  void exprot(){}  originaly
         System.out.println ("RTool: : export");
     }
     public static void main(String[] args) {
@@ -27,7 +28,7 @@ class ReportTool63 extends Tool63 implements Exportable63{
 
     }
 }
-//RTool: : export
-//Tool: :export
+// comp fail line n2
+
 
 

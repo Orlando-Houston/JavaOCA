@@ -10,7 +10,7 @@ public class _96_Shop {
                 break;
             case "2":
                 discount=price*0.5;
-                //  continue:
+                // continue:
             default:
                 System.out.printf ("thank you");
         }

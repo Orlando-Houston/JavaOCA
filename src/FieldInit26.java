@@ -1,7 +1,7 @@
 public class FieldInit26 {
-    Character c;
-    boolean b;
-    float f;
+    Character c;  //null
+    boolean b;//false
+    float f;   //0.0
     void print(){
         System.out.println (c);
         System.out.println (b);

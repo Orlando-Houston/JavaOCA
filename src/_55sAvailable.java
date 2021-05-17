@@ -4,11 +4,12 @@ public class _55sAvailable {
 
         while (isAvailable (x)){
             System.out.println (x);
-            x--;
+           x--;
         }
 
     }
     public static boolean isAvailable(int x){
-        return x-->0 ? true:false;
+
+        return x-- > 0 ? true:false;
     }
 }

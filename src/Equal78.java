@@ -1,11 +1,14 @@
+import java.util.Arrays;
+
 public class Equal78 {
     public static void main(String[] args) {
         String str1 = "Java";
         String[] str2 = {"J", "a", " v", "a"};
-        String str3 = "";
+        String str3 = " ";
 
 
         for (String str : str2) {
+      // String str=Arrays  .toString (str2);
             str3 = str3 + str;
         }
         boolean b1 = (str1.equals (str3));

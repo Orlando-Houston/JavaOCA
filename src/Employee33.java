@@ -6,9 +6,10 @@ public class Employee33 {
     Employee33(){
 
 //        line n1
-        this.name=new String ("Joe");
-        this.contract=new Boolean (true);
-        this.salary=new Double (100);
+       // this.name=new String ("Joe");
+     //   this.contract=new Boolean (true);
+       // this.salary=new Double (100);
+
 
 
 

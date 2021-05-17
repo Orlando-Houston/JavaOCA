@@ -1,2 +1,28 @@
 public class _12_SumTest {
+    public static void main(String[] args) {
+        doSum (10,20);
+        doSum1 (10.0,20.0);
+   //     doSum2 (10.0,20.0);
+        doSum3 (10,20);
+
+    }
+
+    public static void doSum(Integer x, Integer y) {
+        System.out.println ("Integer sum is" + (x + y));
+
+    }
+
+    public static void doSum1(double x, double  y) {
+        System.out.println ("double sum is" + (x + y));
+    }
+
+    public static void doSum2(float x, float y) {
+        System.out.println ("float sum is" + (x + y));
+
+    }
+
+    public static void doSum3(int x, int y) {
+        System.out.println ("int sum is" + (x + y));
+
+    }
 }

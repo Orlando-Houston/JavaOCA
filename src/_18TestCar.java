@@ -9,18 +9,19 @@ class Vehicle18{
         this.type=type;
         this.maxSpeed=maxSpeed;
     }
+    Vehicle18(){}
 
 
 }
-/*
+
 
 class Car18 extends Vehicle18{
     String trans;
 
-    Car18(String trans){//compile  error
+    Car18(String trans){
 
-     //     this.trans=trans;   //line 1
-    //    this("4");
+        this.trans=trans;   //line 1
+
 
 
     }
@@ -41,7 +42,7 @@ public class _18TestCar {
     }
 }
 
- */
+
 
 
 

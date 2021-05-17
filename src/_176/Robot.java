@@ -7,6 +7,7 @@ class Humanoid extends Robot{
 
     @Override
     public void speak(String s) {
+        System.out.println (s);
 
     }
 

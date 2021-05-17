@@ -2,8 +2,8 @@ public class CheckingAccount27 {
     public int amount;
     //    line1
     public CheckingAccount27(){
-
-        this.amount=100;
+       amount=100;
+        //this.amount=100;
     }
 }
 
@@ -12,7 +12,7 @@ class Account27{
 
         CheckingAccount27 acct=new CheckingAccount27 ();
 //        line2
-        acct.amount=100;
+       // acct.amount=100;
 
         System.out.println (acct.amount);
 

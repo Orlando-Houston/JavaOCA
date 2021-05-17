@@ -3,8 +3,8 @@ public class _11_String {
         String[] str = {"A","B"};
         int idx=0;
 
-        for (String s:str){
-            str[idx].concat ("element "+idx);
+        for (String s:str) {
+            str[idx].concat ("element " + idx);
             idx++;
 
 

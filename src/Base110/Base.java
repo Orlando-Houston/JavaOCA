@@ -27,7 +27,7 @@ public class Base {
 
             b1=(Base) b3;
 
-            Base b4= (DerivedA) b3;
+            Base b4= b3;
             b1.test();
             b4.test();
         }

@@ -11,7 +11,7 @@ public class DerivedB extends DerivedA{
         Base b3=new DerivedB ();
 
         Base b4 =b3;
-        b1=(Base)b2;
+        b1=b2;
 
         b1.test ();// DerivedA
         b4.test ();//DerivedB

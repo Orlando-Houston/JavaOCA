@@ -15,7 +15,11 @@ public class _200_TestPatient {
         ps.add(p2);
         //insert code here
 //        Which code fragment, when inserted at line 14, enables the code to print Mike Found?
- int f=ps.indexOf (p2);
+// int f=ps.indexOf (p2);
+        Patient p=new Patient ("Mike");
+        int f=ps.indexOf ( p);
+
+
 
 
 

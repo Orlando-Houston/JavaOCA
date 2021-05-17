@@ -12,7 +12,7 @@ class C1_71 extends C2_71 implements I_71{
     }
 
     public static void main(String[] args) {
-        C2_71 obj1=new C1_71 ();
+        C2_71 obj1 =new C1_71 ();
         I_71 obj2=new C1_71 ();
 
         //   C2_71 s=obj2;  comp error

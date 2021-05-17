@@ -12,11 +12,11 @@ public class _195_Array {
                 System.out.println (shirts[i][j]);
 
 
-                for (String []s:shirts){
-                    for (String sh:s){
-                        System.out.println (sh+" :");
-                    }
-                }
+            //    for (String []s:shirts){
+             //       for (String sh:s){
+              //          System.out.println (sh+" :");
+              //      }
+             //   }
             }
         }
     }

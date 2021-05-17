@@ -1,7 +1,7 @@
 public class App119 {
     String greet="Welcome";
     public App119(){
-        String greet ="Hello";
+      String    greet ="Hello";
     }
     public void  setGreet(){
         String greet= "Good Day";
@@ -10,5 +10,7 @@ public class App119 {
         App119 t=  new App119 ();
         String greet ="Good Luck";
         System.out.println (t.greet);
+        System.out.println (greet);//Good Luck
+        t.setGreet ();
     }
 }

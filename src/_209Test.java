@@ -15,6 +15,12 @@ public class _209Test {
         int x=9, y=5;
         _209Test t=new _209Test(x,y);
 
+        t.x=10;
+        t.y=20;
+
+        System.out.println (t.x  +" "+ t.y);
+
+
         System.out.println (x + " "+y);
 
     }

@@ -14,3 +14,14 @@ public class _192_Array {
          */
     }
 }
+//Note
+//
+//Enhanced for each loops cannot be used in all situations. Only use for-each
+// loops when you want to loop through all the values in an array without
+// changing their values.
+//
+//Do not use for each loops if you need the index.
+//
+//Do not use for each loops if you need to change the values in the array.
+//
+//Do not use for each loops if you want to loop through only part of an array or in a different order.

@@ -1,9 +1,9 @@
 public class _74_Test {
-    void readCard(int cardNo)throws Exception{
+    void readCard(int cardNo) throws Exception{
         System.out.println ("Reading card");
 
     }
-    void checkCard(int cardNo)throws RuntimeException{
+    void checkCard(int cardNo)throws RuntimeException{  // line n1
         System.out.println ("Checking card");
 
     }

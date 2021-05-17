@@ -16,12 +16,12 @@ public class _128MyField {
         _128MyField m1=new _128MyField ();
         m1.x=100;
         m1.y=200;
-        //   m1.display ();
+          m1.display (); // 100  200
 
         _128MyField m2=new _128MyField ();
         m2.doStuff (m1.x  , m1.y);
 
-        m2.display ();
+        m2.display ();  //0   0
 
 
     }

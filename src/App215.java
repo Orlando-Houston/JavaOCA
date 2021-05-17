@@ -22,7 +22,7 @@ public class App215 {
         System.out.println ("processed");
         throw new LogFileException ();
     }
-    public void open(){
+    public void open() throws AccessViolationException{
         System.out.println ("opened");
         throw new AccessViolationException ();
 

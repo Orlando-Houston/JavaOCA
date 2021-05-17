@@ -13,10 +13,10 @@ public class _179_Test {
         _179_Test check1= new _179_Test ();
         _179_Test check2= new _179_Test ();
         check1.changeAccount ();
-        check2.changeAccount ();
-        System.out.println (check1.count+" :"+check2.count);
+    //    check2.changeAccount ();
+        System.out.println (check1.count+" :" /*check2.count*/);
 
-        System.out.println (check1.i+" :"+check2.i);
+    //    System.out.println (check1.i+" :"+check2.i);
 
     }
 
