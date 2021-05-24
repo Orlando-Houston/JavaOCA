@@ -17,6 +17,7 @@ public class Test {
 
         checkAge (iList,(Person  p)->p.getAge ()>45);
    // checkAge (iList,  Person57 p->     p.getAge ()>45);   //comp error
+    //    checkAge (iList,() -> p.getAge ()>40); compile error
 
 
     }

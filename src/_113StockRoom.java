@@ -1,5 +1,6 @@
 public class _113StockRoom {
     private  static int stock=10;
+    static  int qty;
 
     public  void purchase(int qty){
 
@@ -11,7 +12,7 @@ public class _113StockRoom {
     }
     public   static void printStock(String action){
 
-        //   System.out.printf (action+": " +qty+ " items.Stock in Hand:"+ stock);
+         System.out.printf (action+": " +qty+ " items.Stock in Hand:"+ stock);
 
     }
     public static void main(String[] args) {
@@ -27,3 +28,8 @@ public class _113StockRoom {
     }
 
 }
+//You want the code to print:
+//Sold: 5 items. Stock in Hand: 5 Purchased: 5 items. Stock in Hand: 10?
+// Which action enables the code to
+//print this?
+//C. Declare the stock and qty variables and the printStock() method static.

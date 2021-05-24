@@ -6,12 +6,12 @@ public class _11_String {
         for (String s:str) {
             str[idx].concat ("element " + idx);
             idx++;
-
+        }
 
             for (idx=0;idx<str.length;idx++){
                 System.out.println (str[idx]);
             }
-        }}}
+        }}
 
 
 //A B

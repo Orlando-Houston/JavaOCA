@@ -4,15 +4,12 @@ public class App124 {
     public void doStuff(String str){
         int  myNum=0;
 
-        try{
+
             String myStr=str;
             myNum = Integer.parseInt (myStr);
 
-        }catch (NumberFormatException ne){
-            System.out.println ("Error");
 
-        }
-        System.out.println ("myStr: " +myStr +"myNum:"+myNum);  //7007   ,9009
+        System.out.println ("myStr: " +myStr +"myNum:"+myNum);
     }
 
     public static void main(String[] args) {
@@ -21,3 +18,7 @@ public class App124 {
             System.out.println (obj.myStr);
     }
 }
+
+//myStr: 9009myNum:9009
+ //       7007
+

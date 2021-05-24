@@ -11,6 +11,7 @@ public class _20Test {
     public static void main(String[] args) {
        _20Test item=new _20Test ();
         item.a1=11;
+
         String sb="Hello";
         Integer i=10;
         doProduct (i);

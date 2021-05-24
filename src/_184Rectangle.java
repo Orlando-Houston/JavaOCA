@@ -5,13 +5,13 @@ public class _184Rectangle {
 
     public  void setLength(double length) {
         this.length=length;
-        setArea ();
+      //  setArea ();
 
 
     }
     public  void setHeight(double height) {
         this.height=height;
-        // setArea ();
+        setArea ();
 
     }
     public double getArea(){

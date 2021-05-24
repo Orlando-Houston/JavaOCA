@@ -5,11 +5,11 @@ public class Alpha {
     static  int s;
     Alpha  (int ns){
         if (s <ns){
-            s=ns;
+            ns=s;
             this.ns=ns;
         }
     }
     void  doPrint(){
-        System.out.println ("ns=" +ns+" "+s);
+        System.out.println ("ns=" +ns+" " + "s:"+s);
     }
 }

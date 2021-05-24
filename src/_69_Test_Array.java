@@ -9,9 +9,10 @@ public class _69_Test_Array {
              for(int b=0; b<chs.length;b++){
                  chs[a][b]= " "+ i;
                  i++;
-                // System.out.println (chs[a][b]);
+                 System.out.println (chs[a][b]);
              }
-         }
+         }}}
+         /*
          for (String [] ca:chs){
              for (String c:ca){
                  System.out.println (c +" ");
@@ -20,3 +21,5 @@ public class _69_Test_Array {
          }
     }
 }
+
+          */

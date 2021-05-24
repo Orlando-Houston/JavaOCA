@@ -14,7 +14,7 @@ public class Array52 {
 
             }
         }
-        /*
+
         for (String[] ca:chs){
             for (String c:ca){
                 System.out.println (c+" ");
@@ -22,7 +22,7 @@ public class Array52 {
             System.out.println ();
         }
 
-         */
+
     }
 }
 

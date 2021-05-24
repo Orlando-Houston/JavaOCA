@@ -1,9 +1,10 @@
 public class _23_Switch{
         public static void main(String[] args) {
             char colorCode='y';
+            int color=0;
             switch(colorCode){
                 case 'r':
-                    int color=100;
+                     color=100;
                     break;
 
                 case 'b':
@@ -16,8 +17,8 @@ public class _23_Switch{
 
             }
 
-            System.out.println (colorCode);//y
-            //  System.out.println (color);comp error
+         //   System.out.println (colorCode);//y
+              System.out.println (color);
         }
 
 }

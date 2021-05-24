@@ -14,5 +14,8 @@ public class _141_SubString {
         }catch (Exception e){
             System.out.println ("invalid name");
         }
+
+
     }
 }
+

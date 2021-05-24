@@ -13,7 +13,7 @@ public class _142_Switch {
                     break;
 
                 case "mon":
-                    wd++;
+                    wd -=1;
 
                     break;
 
@@ -24,7 +24,7 @@ public class _142_Switch {
         System.out.println (wd);
     }
 }
-//3
+//-1
 
 
 

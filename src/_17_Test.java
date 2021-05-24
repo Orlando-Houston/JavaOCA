@@ -1,11 +1,11 @@
 public class _17_Test {
     int x,y;
-    public _17_Test(int x,int y){
-        initialize (x,y);
-       this.x=x;
-      this.y=y;
+   // public _17_Test(int x,int y){
+   //     initialize (x,y);
+   //    this.x=x;
+   //   this.y=y;
 
-   }
+  // }
 
 
 
@@ -19,7 +19,7 @@ public class _17_Test {
 
     public static void main(String[] args) {
         int x=3, y=5;
-      _17_Test t=new _17_Test (x,y);
+      _17_Test t=new _17_Test ();
         System.out.println (x + " "+ y);
         System.out.println (t.x + " "+ t.y);
 

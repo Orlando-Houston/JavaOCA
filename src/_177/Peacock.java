@@ -13,14 +13,14 @@ public class Peacock extends Bird {
 
 /*
       Bird b=new Bird ();
-       b.fly (); //  Fly...
+       b.fly ();        //  Fly...
      //   b.dance();
      */
-  /*
+
         Peacock  p= new Peacock ();  //answer
         p.dance (); //  Dance..
-       p.fly ();  //fly
-       */
+       p.fly ();           //fly
+
 
   /*
         Bird b=new Bird ();
@@ -34,14 +34,14 @@ public class Peacock extends Bird {
         Peacock b=new Peacock();
         Bird p= (Bird) b;
         p.fly ();
-        p.dance ();  //we need to dreate dance method inside the Bird class
+        p.dance ();  //we need to create dance method inside the Bird class
 
         */
 
 
-        Bird b=new Peacock ();
-        Peacock p=(Peacock) b;
-        p.fly();
-        p.dance();
+       Bird b=new Peacock ();
+        Peacock p1=(Peacock) b;
+       p1.fly();
+        p1.dance();
     }
 }
